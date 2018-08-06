@@ -36,4 +36,5 @@ public class Lock{
     public void lock(){
         this.locked = true;
     }
+    
 }
