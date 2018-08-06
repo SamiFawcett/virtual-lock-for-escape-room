@@ -1,9 +1,0 @@
-#BlueJ class context
-comment0.target=Lock
-comment1.params=lock_name\ locked\ key\ clue
-comment1.target=Lock(java.lang.String,\ boolean,\ java.lang.String,\ java.lang.String)
-comment2.params=
-comment2.target=void\ attempt_open()
-comment3.params=
-comment3.target=void\ lock()
-numComments=4
