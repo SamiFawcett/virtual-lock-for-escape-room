@@ -21,7 +21,7 @@ public class Lock{
             System.out.println("You are attempting to open " + lock_name);
             String guess = sc.nextLine();
             this.last_guess = guess;
-            if(guess.equals(key_to_open)){
+            if(guess.equalsIgnoreCase(key_to_open)){
                 this.locked = false;
                 System.out.println(lock_name + ": UNLOCKED");
                 System.out.println(this.clue);
