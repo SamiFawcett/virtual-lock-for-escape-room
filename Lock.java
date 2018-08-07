@@ -23,8 +23,7 @@ public class Lock{
             this.last_guess = guess;
             if(guess.equalsIgnoreCase(key_to_open)){
                 this.locked = false;
-                System.out.println(lock_name + ": UNLOCKED");
-                System.out.println(this.clue);
+                System.out.println(lock_name + ": UNLOCKED" + "\n" + this.clue);
             } else {
                 attempt_open();
             }
