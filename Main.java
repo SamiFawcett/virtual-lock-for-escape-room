@@ -18,6 +18,7 @@ public class Main{
         L1.attempt_open();
         L2.attempt_open();
         L3.attempt_open();
+        if(!L3.locked) { this.completed = true; }
     }
 
     public static void main(String[] args){
